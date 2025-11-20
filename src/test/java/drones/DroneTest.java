@@ -1,4 +1,4 @@
-package com.esgi.drones;
+package drones;
 
 import org.junit.jupiter.api.Test;
 

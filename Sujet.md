@@ -1,5 +1,14 @@
 L'objectf de ce TP est de modéliser une flotte de drones à laquelle nous pouvons assigner des missions de photographies en fonction de la disponibilité des drones
 
+
+## Avant de commencer
+
+**Créer un répertoire src/main/drones/gr<VOTRE-NUMERO-DE-GROUPE> et src/test/drones/gr<VOTRE-NUMERO-DE-GROUPE>**
+
+Pour le rendu, lancer la commande `./gradlew rendu --group <VOTRE-NUMERO-DE-GROUPE>` et fournir l'archive ZIP générée (nommée `rendu-gr-<VOTRE-NUMERO-DE-GROUPE>.zip`)
+
+Faire au moins un commit après chaque exercice
+
 ### Exercice 1 : Un drone
 
 Une drone est défini par :

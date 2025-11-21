@@ -18,11 +18,11 @@ public class Drone {
         return altitude_max;
     }
 
-    public MoveResult goTo(Position fin){
-        if(fin.getY() > this.altitude_max){
-            return new Rejected("L'altitude max est dépassée : " + fin.getY() + "m");
+    public MoveResult goTo(Position destination){
+        if(destination.getY() > this.altitude_max){
+            return new Rejected("L'altitude max est dépassée : " + destination.getY() + "m");
         }
 
-        return new Moving(fin);
+        return new Moving(destination);
     }
 }

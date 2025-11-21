@@ -1,13 +1,13 @@
 package drones;
 
 public class Moving extends MoveResult {
-    Position fin;
+    Position destination;
 
-    public Moving(Position fin) {
-        this.fin = fin;
+    public Moving(Position destination) {
+        this.destination = destination;
     }
 
     public Position getDestination() {
-        return fin;
+        return destination;
     }
 }
